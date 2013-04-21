@@ -25,7 +25,7 @@ class newrelic (
   }
 
   class { 'newrelic::config':
-    license_key => $license_key
+    license_key => $license_key,
     require     => Class['newrelic::package'],
     notify      => Class['newrelic::service'],
   }

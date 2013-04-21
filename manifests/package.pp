@@ -13,20 +13,9 @@
 # Sample Usage:
 #
 # This class file is not called directly
-class newrelic::package (
-  $licensekey = undef
-) {
+class newrelic::package {
   Exec {
     path => '/bin:/sbin:/usr/bin:/usr/sbin',
-  }
-  File {
-    owner => 'root',
-    group => 'root',
-    mode  => '0644',
-  }
-
-  if ($licensekey == undef) {
-    fail('You must specify a license key')
   }
 
   exec { 'newrelic.gpg':
