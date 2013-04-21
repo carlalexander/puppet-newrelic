@@ -1,6 +1,6 @@
-# PostgreSQL Module
+# New Relic Module
 
-Puppet module designed to manage PostgreSQL.
+Puppet module designed to manage New Relic.
 
 ## Requirements
 
