@@ -1,6 +1,6 @@
 # Class: newrelic::package
 #
-# This module manages New Relic package installation
+# This module manages New Relic server monitoring package installation
 #
 # Parameters:
 #

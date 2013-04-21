@@ -1,6 +1,6 @@
 # Class: newrelic
 #
-# This module manages New Relic.
+# This module manages New Relic server monitoring.
 #
 # Parameters:
 #

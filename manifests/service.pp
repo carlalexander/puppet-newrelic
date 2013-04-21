@@ -1,6 +1,6 @@
 # Class: newrelic::service
 #
-# This module manages the New Relic service
+# This module manages the New Relic server monitoring service
 #
 # Parameters:
 #

@@ -1,6 +1,6 @@
 # Class: newrelic::config
 #
-# This module manages New Relic module configuration
+# This module manages New Relic server monitoring module configuration
 #
 # Parameters:
 #

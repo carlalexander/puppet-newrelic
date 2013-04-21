@@ -1,6 +1,6 @@
-# New Relic Module
+# New Relic Server Monitoring Module
 
-Puppet module designed to manage New Relic.
+Puppet module designed to manage New Relic server monitoring.
 
 ## Requirements
 
